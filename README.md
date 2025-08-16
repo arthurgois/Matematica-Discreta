@@ -18,10 +18,6 @@ Este projeto implementa um simulador de sistema de comunicação digital para tr
 - **Métricas de desempenho:** Cálculo de BER e comparação teórico vs. simulado
 - **Visualização em tempo real:** Curvas de desempenho BER vs Eb/N0
 
-##  Principais Descobertas
-
- **Descoberta Crítica:** O código de Hamming **degrada** o desempenho para Eb/N0 < 6 dB, com BER até 52% pior que a transmissão sem codificação. Este comportamento contraintuitivo ocorre quando a probabilidade de múltiplos erros por bloco excede a capacidade de correção do código.
-
 ##  Início Rápido
 
 ### Pré-requisitos
@@ -34,8 +30,8 @@ pip install numpy matplotlib pillow scipy
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seuusuario/simulacao-codificacao-canal.git
-cd simulacao-codificacao-canal
+git clone https://github.com/arthurgois/Matematica-Discreta.git
+cd Matematica-Discreta
 ```
 
 2. Certifique-se de que a seguinte estrutura de diretórios existe:
@@ -56,7 +52,7 @@ projeto/
 
 ### Executando a Simulação
 
-#### Opção 1: Imagem Padrão (CTG)
+#### Opção 1: Imagem Padrão (foto do CTG)
 ```bash
 python main_transmission.py
 ```
